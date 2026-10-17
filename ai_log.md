@@ -1,0 +1,11 @@
+# Bitácora de uso de IA
+
+> Obligatoria en todas las entregas. Una fila por uso relevante de una herramienta de IA (chat, asistente de código, generador).
+> La IA es una herramienta permitida; ocultarla no lo es. Se califica la honestidad y la calidad de la validación, no si la usaste.
+
+| Fecha | Entrega | Herramienta y modelo | Para qué la usé | Prompt (resumen o enlace) | Qué acepté | Qué cambié o rechacé y por qué | Cómo lo validé |
+|---|---|---|---|---|---|---|---|
+| 2026-10-16 | A1 | Ejemplo: asistente de código | Ejemplo: generar el esqueleto de la función de normalización | "Escribe una función en numpy que…" | La estructura del ciclo | Usaba `/` sin cuidar la norma cero; lo corregí | Prueba `test_normalizar_vector_cero` |
+| 2026-10-17 | A1 | Claude Code (Sonnet 5.5) | Implementar normalizar, coseno y buscar en retrieval.py | Pegué el manual del laboratorio y pedí implementar las tres funciones | La implementación con numpy: normas en 0 cambiadas por 1, coseno que regresa 0.0 con norma cero, buscar con argsort | Nada relevante; revisé que la lógica coincidiera con las pistas del manual | `pytest tests/test_a1_vectores.py` → 4 passed (con EMB_PROVIDER=hash) |
+| 2026-10-17 | A1 | Claude Code (Sonnet 5.5) | Borrador de las 10 preguntas de evals/a1_v4-documentador.jsonl | Pedí 10 preguntas del corpus v4-documentador con 3 o más sinónimos y 2 o más exactos | Las 10 preguntas con su documento esperado | REVISAR: confirmar que cada pregunta apunta al documento correcto leyendo el corpus | `python guia/a1_comparar_variante.py` valida que cada id esperado existe |
+| 2026-10-17 | A1 | Claude Code (Sonnet 5.5) | Frases, vectores e interpretación del notebook a1_manual.ipynb | Pedí 3 frases de v4-documentador con dimensiones con nombre | Las frases, vectores e interpretación | REVISAR: ajustar los valores si no me convencen | Ejecuté las celdas: cos(F1,F2)=0.980, cos(F1,F3)=0.181 |
