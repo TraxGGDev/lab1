@@ -4,7 +4,7 @@
 {"pregunta": "cómo explicar a quien consume el servicio qué hacer cuando una petición falla", "esperado": "doc-06", "tipo": "sinonimo"}
 {"pregunta": "¿Puedo usar la CLABE 646180000000000000 en mis ejemplos?", "esperado": "doc-08", "tipo": "exacto"}
 {"pregunta": "application/problem+json", "esperado": "doc-03", "tipo": "exacto"}
-{"pregunta": "¿Cómo menciono PAGOS_API_KEY en el README?", "esperado": "doc-05", "tipo": "exacto"}
+{"pregunta": "POR CONFIRMAR", "esperado": "doc-01", "tipo": "exacto"}
 {"pregunta": "¿Qué secciones lleva el README de un servicio y en qué orden?", "esperado": "doc-02", "tipo": "normal"}
-{"pregunta": "¿Cómo se nombran las rutas y los campos JSON?", "esperado": "doc-04", "tipo": "normal"}
+{"pregunta": "operationId camelCase único", "esperado": "doc-03", "tipo": "exacto"}
 {"pregunta": "¿Qué formato y qué tipo de versionado lleva el changelog?", "esperado": "doc-07", "tipo": "normal"}

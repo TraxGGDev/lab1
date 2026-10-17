@@ -79,18 +79,16 @@
     ]
   },
   {
-    "pregunta": "¿Cómo menciono PAGOS_API_KEY en el README?",
+    "pregunta": "POR CONFIRMAR",
     "tipo": "exacto",
-    "esperado": "doc-05",
+    "esperado": "doc-01",
     "vector_top3": [
-      "doc-05",
-      "doc-02",
-      "doc-01"
+      "doc-09",
+      "doc-08",
+      "doc-04"
     ],
     "palabras_top3": [
-      "doc-05",
-      "doc-09",
-      "doc-02"
+      "doc-01"
     ]
   },
   {
@@ -109,18 +107,17 @@
     ]
   },
   {
-    "pregunta": "¿Cómo se nombran las rutas y los campos JSON?",
-    "tipo": "normal",
-    "esperado": "doc-04",
+    "pregunta": "operationId camelCase único",
+    "tipo": "exacto",
+    "esperado": "doc-03",
     "vector_top3": [
       "doc-04",
       "doc-03",
       "doc-05"
     ],
     "palabras_top3": [
-      "doc-04",
       "doc-03",
-      "doc-01"
+      "doc-04"
     ]
   },
   {
@@ -141,8 +138,8 @@
   {
     "resumen": {
       "vector": {
-        "acierto@1": 10,
-        "acierto@3": 10,
+        "acierto@1": 8,
+        "acierto@3": 9,
         "n": 10
       },
       "palabras": {
