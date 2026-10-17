@@ -1,0 +1,157 @@
+[
+  {
+    "pregunta": "¿Cómo debo redactar los textos: tuteo o formal, y qué tan largas pueden ser las frases?",
+    "tipo": "sinonimo",
+    "esperado": "doc-01",
+    "vector_top3": [
+      "doc-01",
+      "doc-02",
+      "doc-07"
+    ],
+    "palabras_top3": []
+  },
+  {
+    "pregunta": "encontré una contraseña pegada dentro del programa, ¿la copio en el manual para los socios?",
+    "tipo": "sinonimo",
+    "esperado": "doc-05",
+    "vector_top3": [
+      "doc-05",
+      "doc-09",
+      "doc-08"
+    ],
+    "palabras_top3": [
+      "doc-05"
+    ]
+  },
+  {
+    "pregunta": "¿qué número de cuenta bancaria inventado puedo poner en una muestra?",
+    "tipo": "sinonimo",
+    "esperado": "doc-08",
+    "vector_top3": [
+      "doc-08",
+      "doc-04",
+      "doc-05"
+    ],
+    "palabras_top3": [
+      "doc-04"
+    ]
+  },
+  {
+    "pregunta": "cómo explicar a quien consume el servicio qué hacer cuando una petición falla",
+    "tipo": "sinonimo",
+    "esperado": "doc-06",
+    "vector_top3": [
+      "doc-06",
+      "doc-01",
+      "doc-02"
+    ],
+    "palabras_top3": [
+      "doc-07",
+      "doc-02",
+      "doc-06"
+    ]
+  },
+  {
+    "pregunta": "¿Puedo usar la CLABE 646180000000000000 en mis ejemplos?",
+    "tipo": "exacto",
+    "esperado": "doc-08",
+    "vector_top3": [
+      "doc-08",
+      "doc-01",
+      "doc-05"
+    ],
+    "palabras_top3": [
+      "doc-08"
+    ]
+  },
+  {
+    "pregunta": "application/problem+json",
+    "tipo": "exacto",
+    "esperado": "doc-03",
+    "vector_top3": [
+      "doc-03",
+      "doc-06",
+      "doc-04"
+    ],
+    "palabras_top3": [
+      "doc-03",
+      "doc-04"
+    ]
+  },
+  {
+    "pregunta": "¿Cómo menciono PAGOS_API_KEY en el README?",
+    "tipo": "exacto",
+    "esperado": "doc-05",
+    "vector_top3": [
+      "doc-05",
+      "doc-02",
+      "doc-01"
+    ],
+    "palabras_top3": [
+      "doc-05",
+      "doc-09",
+      "doc-02"
+    ]
+  },
+  {
+    "pregunta": "¿Qué secciones lleva el README de un servicio y en qué orden?",
+    "tipo": "normal",
+    "esperado": "doc-02",
+    "vector_top3": [
+      "doc-02",
+      "doc-07",
+      "doc-05"
+    ],
+    "palabras_top3": [
+      "doc-02",
+      "doc-07",
+      "doc-03"
+    ]
+  },
+  {
+    "pregunta": "¿Cómo se nombran las rutas y los campos JSON?",
+    "tipo": "normal",
+    "esperado": "doc-04",
+    "vector_top3": [
+      "doc-04",
+      "doc-03",
+      "doc-05"
+    ],
+    "palabras_top3": [
+      "doc-04",
+      "doc-03",
+      "doc-01"
+    ]
+  },
+  {
+    "pregunta": "¿Qué formato y qué tipo de versionado lleva el changelog?",
+    "tipo": "normal",
+    "esperado": "doc-07",
+    "vector_top3": [
+      "doc-07",
+      "doc-02",
+      "doc-04"
+    ],
+    "palabras_top3": [
+      "doc-07",
+      "doc-03",
+      "doc-01"
+    ]
+  },
+  {
+    "resumen": {
+      "vector": {
+        "acierto@1": 10,
+        "acierto@3": 10,
+        "n": 10
+      },
+      "palabras": {
+        "acierto@1": 7,
+        "acierto@3": 8,
+        "n": 10
+      }
+    },
+    "variante": "v4-documentador",
+    "embeddings": "gemini"
+  }
+]
